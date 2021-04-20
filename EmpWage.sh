@@ -1,8 +1,8 @@
 #!/bin/bash -x
 
-emp=$((RANDOM%2))
+empCheck=$((RANDOM%2))
 
-if [ $emp -eq 1 ]
+if [ $empCheck -eq 1 ]
 then
  ratePerHr=20
  empHrs=8
